@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Feedback</title>
+  <link rel="stylesheet" href="CSS/styles.css"/>
+
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="logo">
+        <a href="home.html"><img src="hinh/logo.png" alt="Logo" /></a>
+      </div>
+      <nav class="nav">
+        <a href="home.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="hotCombo.html">Hot Combo</a>
+        <a href="about.html">About us</a>
+        <a href="blog.html">Blog</a>
+        <a href="feedback.html" class="active">Feedback</a>
+      </nav>
+      <div class="icons">
+        <div class="icon-wrapper search-container">
+          <img src="hinh/.png" class="search-icon" onclick="toggleSearch()" />
+          <div class="search-box" id="search-box">
+            <input type="text" placeholder="Tìm kiếm...">
+            <button onclick="toggleSearch()">❌</button>
+          </div>
+        </div>
+      
+        <div class="icon-wrapper">
+          <a href="logIn.html"><span>👤</span></a>
+        </div>
+        <div class="icon-wrapper cart" onclick="window.location.href='shoppingCart.html'">🛒</div>
+        </div>
+    </header>
+          
+    <main class="main">
+      <div class="left">
+        <div class="hours">
+          <p>WE ARE OPEN FROM</p>
+          <p><strong>Mon-Sat:</strong> 07:00–20:00</p>
+          <p><strong>Sunday:</strong> 08:00–18:00</p>
+        </div>
+
+        <h1 class="heading">
+          Welcome to
+          <br>3F</br>
+          <span id="greeting">Good Morning</span>
+        </h1>
+        
+        <p class="docx">Fun, Fast, Fresh</p>
+        <p class="docx">The Ultimate Fast Food Experience!</p>
+
+        <div class="order-now">
+          🛒<span>ORDER NOW</span>
+        </div>
+      </div>
+
+      <div class="right">
+        <div class="rating">
+          <span>15k+ Rating</span>
+          <span>⭐ 4.5</span>
+        </div>
+        <img src="FastFoodPictures/foodCute.png" class="food-img"/>
+      </div>
+    </main>
+
+    <section class="stats">
+      <div class="stat">
+        <h2>50+</h2>
+        <p>Food</p>
+      </div>
+      <div class="stat">
+        <h2>25+</h2>
+        <p>Drink</p>
+      </div>
+    </section>
+  </div>
+  <script src="script/page.js"></script>
+
+</body>
+</html>
