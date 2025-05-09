@@ -45,8 +45,8 @@ body {
 }
 
 .header p {
-    font-size: 14px;
-    color: #777;
+	font-size: 14px;
+	color: #007BFF;
 }
 
 .social-buttons {
@@ -104,11 +104,11 @@ body {
 }
 
 .email-input label, .password-input label {
-    margin-top: 2px;
-    margin-left: 10%;
-    font-weight: bold;
-    margin-bottom: 2px;
-    color: #555;
+	margin-top: 2px;
+	margin-left: 10%;
+	font-weight: bold;
+	margin-bottom: 2px;
+	color: #000;
 }
 
 .email-input input, .password-input input {
